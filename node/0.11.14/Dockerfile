@@ -16,3 +16,5 @@ RUN \
     && make \
     && make install \
     && rm -rf ~/node
+        
+CMD ["node", "-v"]

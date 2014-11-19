@@ -5,6 +5,7 @@ ENV NODE_VERSION 0.11.14
 
 RUN \
     yum update -y \
+    && yum -y clean all \
     && yum install -y wget gcc gcc-c++ which make \
     && yum -y clean all \
     && mkdir -p ~/node \
@@ -16,3 +17,5 @@ RUN \
     && make \
     && make install \
     && rm -rf ~/node
+    
+CMD ["node", "-v"]
