@@ -1,5 +1,5 @@
 FROM fedora
-MAINTAINER JarvisJiang <jarvisjiang@tencent.com>
+MAINTAINER JarvisJiang <jiang115jie@gmail.com>
 
 ENV NODE_VERSION 0.11.14
 
