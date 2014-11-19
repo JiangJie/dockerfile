@@ -1,4 +1,5 @@
 dockerfile
 ==========
 
-A set of Dockerfiles.
+> A set of Dockerfiles.
+> Dockerfile集合.
