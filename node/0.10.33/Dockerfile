@@ -5,7 +5,7 @@ ENV NODE_VERSION 0.10.33
 
 RUN \
     yum update -y \
-    && yum install -y wget gcc gcc-c++ which make git \
+    && yum install -y wget gcc-c++ which make git \
     && yum -y clean all \
     && mkdir -p ~/node \
     && cd ~/node \
